@@ -65,7 +65,7 @@ CREATE TABLE povratna_informacija(
 
 );
 
-CREATE TABLE raspored-putovanja(
+CREATE TABLE raspored_putovanja(
 	id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
 	bus_id
     vozac_id
