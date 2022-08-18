@@ -1,3 +1,13 @@
+DROP TABLE IF EXISTS stanica;
+CREATE TABLE stanica(
+	id INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT;
+	ime VARCHAR(32) NOT NULL,
+    je_otvoreno BIT(1)
+	
+);
+
+INSERT INTO stanica (id, ime, je_otvoreno) VALUES ('otvoreno', 1);
+INSERT INTO stanica (id, ime, je_otvoreno) VALUES ('zatvoreno', 0);
 
 CREATE DATABASE online_bus_rezervacija;
 USE online_bus_rezervacija;
