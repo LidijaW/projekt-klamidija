@@ -74,7 +74,7 @@ CREATE TABLE raspored_putovanja(
 	destinacija
 );
 
-CREATE DATABASE nacin_placanja(
+CREATE TABLE nacin_placanja(
 	id,
     	booking_id,
     	kupac_id,
@@ -83,7 +83,7 @@ CREATE DATABASE nacin_placanja(
     	cijena
     	raspored putovanja_id
 );
-CREATE DATABASE karticno_placanje(
+CREATE TABLE karticno_placanje(
 	id;
     	paypal,
     	mastercard,
@@ -91,7 +91,7 @@ CREATE DATABASE karticno_placanje(
     	american express,
     	maestro
 );
-CREATE DATABASE prtljaga(
+CREATE TABLE prtljaga(
 	id,
     	kupac_id
     	tezina_prtljage
