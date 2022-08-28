@@ -145,19 +145,19 @@ CREATE TABLE prtljaga(
 
 
 INSERT INTO tvrtka_prijevoznik VALUES 	(1,'Arriva'), 
-										(2,'Flixbus'),
-										(3,'Čagalj tours'),	
-										(4,'Brioni'),
-										(5,'Čazmatrans'),
-										(6,'Rudi express'),
-										(7,'Slavonija bus'),
-										(8,'Vincek'),
-										(9,'Croatia Bus'),
-										(10,'Ines tours'),
-										(11,'Autotrans'),
-										(12,'APP'),
-										(13,'AP Varaždin'),
-										(14,'Adriana Cavtat');	
+					(2,'Flixbus'),
+					(3,'Čagalj tours'),	
+					(4,'Brioni'),
+					(5,'Čazmatrans'),
+					(6,'Rudi express'),
+					(7,'Slavonija bus'),
+					(8,'Vincek'),
+					(9,'Croatia Bus'),
+					(10,'Ines tours'),
+					(11,'Autotrans'),
+					(12,'APP'),
+					(13,'AP Varaždin'),
+					(14,'Adriana Cavtat');	
                                         
 INSERT INTO kolodvor VALUES (15,'Poreč');
 
@@ -170,23 +170,23 @@ INSERT INTO radno_vrijeme VALUES(16,15,'Ponedjeljak',05,22),
                                 (22,15,'Nedjelja',05,18);
 							
 INSERT INTO bus VALUES  (23,1,'ZG-1234-AB',1,60),
-						(24,2,'ZG-0983-GF',2,50),
-						(25,3,'KA-1525-GH',3,35),
-						(26,4,'PU-3845-CD',4,59),
-						(27,5,'VU-4644-ZB',5,40),
-						(28,6,'VA-0434-KL',6,45),
-						(29,7,'RI-9834-PO',7,45),
-						(30,8,'DJ-0295-PE',8,55),
-						(31,9,'OS-4535-DE',9,55),
-						(32,10,'DU-3453-TR',10,59),
-						(33,11,'GS-9860-LC',11,35),
-						(34,12,'DA-5427-NM',12,40),
-						(35,13,'SB-3453-FR',13,40),
-						(36,14,'VŽ-6434-IU',14,59);
+			(24,2,'ZG-0983-GF',2,50),
+			(25,3,'KA-1525-GH',3,35),
+		        (26,4,'PU-3845-CD',4,59),
+			(27,5,'VU-4644-ZB',5,40),
+			(28,6,'VA-0434-KL',6,45),
+			(29,7,'RI-9834-PO',7,45),
+			30,8,'DJ-0295-PE',8,55),
+			(31,9,'OS-4535-DE',9,55),
+			(32,10,'DU-3453-TR',10,59),
+			(33,11,'GS-9860-LC',11,35),
+			(34,12,'DA-5427-NM',12,40),
+			(35,13,'SB-3453-FR',13,40),
+			(36,14,'VŽ-6434-IU',14,59);
                         
 INSERT INTO kupac VALUES (37,15,'Andrea','Horvatović',091456789,'ahorvat3@gmail.com'),
-						 (38,15,'Željko','Matošević',095432452,'matosevicc@gmail.com'),
-						 (39,15,'Matea','Čelik',091421545,'celic344@gmail.com'),
+			 (38,15,'Željko','Matošević',095432452,'matosevicc@gmail.com'),
+			 (39,15,'Matea','Čelik',091421545,'celic344@gmail.com'),
                          (40,15,'Ana','Babić',091111249,'babo90@gmail.com'),
                          (41,15,'Nick','Novak',091443434,'novak99@gmail.com'),
                          (42,15,'Julia','Knez',091004334,'knezjul@gmail.com'),
@@ -200,7 +200,7 @@ INSERT INTO kupac VALUES (37,15,'Andrea','Horvatović',091456789,'ahorvat3@gmail
                          (50,15,'Andrej','Geppert',0910234789,'geppertandro12@gmail.com');
 
 INSERT INTO vozac VALUES (51,23,'Matko','Bosek'),
-						 (52,24,'Đenis','Umiljenović'),
+			 (52,24,'Đenis','Umiljenović'),
                          (53,25,'Marijan','Kaštela'),
                          (54,26,'Laura','Delać'),
                          (55,27,'Dragana','Straga'),
@@ -215,7 +215,7 @@ INSERT INTO vozac VALUES (51,23,'Matko','Bosek'),
                          (64,36,'Mauro','Pavličić');
                          
 INSERT INTO rezervacija VALUES (65,15,38,1000-0001,STR_TO_DATE('12.05.2022.', '%d.%m.%Y.')),
-							   (66,15,38,1000-0002,STR_TO_DATE('02.03.2022.', '%d.%m.%Y.')),
+			       (66,15,38,1000-0002,STR_TO_DATE('02.03.2022.', '%d.%m.%Y.')),
                                (67,15,39,1000-0003,STR_TO_DATE('15.12.2021.', '%d.%m.%Y.')),
                                (68,15,41,1000-0005,STR_TO_DATE('19.10.2021.', '%d.%m.%Y.')),
                                (69,15,42,1000-0006,STR_TO_DATE('04.10.2021.', '%d.%m.%Y.')),
