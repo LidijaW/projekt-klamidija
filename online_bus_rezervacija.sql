@@ -162,7 +162,7 @@ INSERT INTO tvrtka_prijevoznik VALUES 	(1,'Arriva'),
 INSERT INTO kolodvor VALUES (15,'Poreč');
 
 INSERT INTO radno_vrijeme VALUES(16,15,'Ponedjeljak',05,22),
-								(17,15,'Utorak',05,22),
+				(17,15,'Utorak',05,22),
                                 (18,15,'Srijeda',05,22),
                                 (19,15,'Četvrtak',05,22),
                                 (20,15,'Petak',05,22),
@@ -229,21 +229,21 @@ INSERT INTO rezervacija VALUES (65,15,38,1000-0001,STR_TO_DATE('12.05.2022.', '%
                                (77,15,50,1000-0014,STR_TO_DATE('27.3.2021.', '%d.%m.%Y.'));							
 
 INSERT INTO rezervacija_stavka VALUES(78,65,23,2),
-									 (79,66,24,1),
-									 (80,67,25,2),
-									 (81,68,26,4),
-								     (82,69,27,2),
-									 (83,70,27,1),
-								     (84,71,29,4),
-									 (85,72,30,2),
-									 (86,73,23,2),
-									 (87,74,24,1),
-									 (88,75,36,1),
-									 (89,76,34,1),
-									 (90,77,31,2);                       
+				     (79,66,24,1),
+				     (80,67,25,2),
+				     (81,68,26,4),
+				     (82,69,27,2),
+				     (83,70,27,1),
+				     (84,71,29,4),
+				     (85,72,30,2),
+				     (86,73,23,2),
+				     (87,74,24,1),
+				     (88,75,36,1),
+				     (89,76,34,1),
+				     (90,77,31,2);                       
 
 INSERT INTO karta VALUES(91,65),
-						(92,66),
+			(92,66),
                         (93,67),
                         (94,68),
                         (95,69),
@@ -258,7 +258,7 @@ INSERT INTO karta VALUES(91,65),
                         
                         
 INSERT INTO racun VALUES(104,65,38,STR_TO_DATE('12.05.2022.', '%d.%m.%Y.'),'kartica'),
-						(105,66,38,STR_TO_DATE('02.03.2022.', '%d.%m.%Y.'),'kartica'),
+			(105,66,38,STR_TO_DATE('02.03.2022.', '%d.%m.%Y.'),'kartica'),
                         (106,67,39,STR_TO_DATE('15.12.2021.', '%d.%m.%Y.'),'kartica'),
                         (107,68,41,STR_TO_DATE('19.10.2021.', '%d.%m.%Y.'),'kartica'),
                         (108,69,42,STR_TO_DATE('04.10.2021.', '%d.%m.%Y.'),'gotovina'),
